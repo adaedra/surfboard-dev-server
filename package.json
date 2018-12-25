@@ -6,7 +6,6 @@
     },
     "dependencies": {
         "express": "^4.16.4",
-        "webpack": "^4.28.2",
         "webpack-dev-middleware": "^3.4.0",
         "webpack-log": "^2.0.0"
     },
@@ -16,10 +15,12 @@
         "@types/node": "^10.12.18",
         "@types/webpack": "^4.4.22",
         "@types/webpack-dev-middleware": "^2.0.2",
-        "typescript": "^3.2.2"
+        "typescript": "^3.2.2",
+        "webpack": "^4.28.2"
     },
     "peerDependencies": {
-        "@surfboard/core": "^0.1.0"
+        "@surfboard/core": "^0.1.0",
+        "webpack": "^4.28.2"
     },
     "scripts": {
         "build": "tsc",
