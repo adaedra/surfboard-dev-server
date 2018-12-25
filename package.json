@@ -7,7 +7,8 @@
     "dependencies": {
         "express": "^4.16.4",
         "webpack": "^4.28.2",
-        "webpack-dev-middleware": "^3.4.0"
+        "webpack-dev-middleware": "^3.4.0",
+        "webpack-log": "^2.0.0"
     },
     "devDependencies": {
         "@surfboard/core": "file:../surfboard-core",
