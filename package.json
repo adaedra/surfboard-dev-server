@@ -1,0 +1,27 @@
+{
+    "name": "@surfboard/dev-server",
+    "version": "0.1.0",
+    "bin": {
+        "surfboard-dev-server": "dist/server.js"
+    },
+    "dependencies": {
+        "express": "^4.16.4",
+        "webpack": "^4.28.2",
+        "webpack-dev-middleware": "^3.4.0"
+    },
+    "devDependencies": {
+        "@surfboard/core": "file:../surfboard-core",
+        "@types/express": "^4.16.0",
+        "@types/node": "^10.12.18",
+        "@types/webpack": "^4.4.22",
+        "@types/webpack-dev-middleware": "^2.0.2",
+        "typescript": "^3.2.2"
+    },
+    "peerDependencies": {
+        "@surfboard/core": "^0.1.0"
+    },
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch"
+    }
+}
