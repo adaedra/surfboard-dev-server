@@ -1,6 +1,6 @@
 {
     "name": "@surfboard/dev-server",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "license": "MIT",
     "description": "Tweaked webpack-dev-server to load the surfboard server side",
     "repository": {
