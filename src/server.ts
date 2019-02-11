@@ -21,6 +21,10 @@ const surfboardConfig = requireLocal('surfboard.server')
 const log = webpackLog({ name: 'sds' })
 
 app.use(middleware)
+if (surfboardConfig.server) {
+    app.use(surfboardConfig.server)
+}
+
 surfboard.listen(1337, () => {
     startDispatcher(surfboardConfig.sources)
     log.info('Running!')
